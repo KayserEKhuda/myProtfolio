@@ -5,10 +5,10 @@ body{
 h1{
     font-size: 25px;
 }
-span{
-    color: olive;
+.set-color{
+    color: rgb(240, 51, 17);
 }
-section{
+.flexible-con{
     display: flex;
     margin-bottom: 100px;
 }
@@ -37,4 +37,32 @@ button a{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.expo-item{
+    box-shadow: 10px 10px 30px green;
+    max-width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    /* border-radius: 10px;
+    border-right: 5px solid violet; */
+}
+.last-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#expoId-color{
+    border-right: 5px solid violet;
+    border-image: linear-gradient(rgb(103, 9, 190),rgb(16, 233, 52));
+    border-image-slice: 1;
+}
+#full-id{
+    border-right: 5px solid violet;
+    border-image: linear-gradient(rgb(103, 9, 190),rgb(16, 233, 52));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }

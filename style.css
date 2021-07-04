@@ -3,25 +3,28 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 25px;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .set-color{
-    color: rgb(240, 51, 17);
+    color: rgb(252, 207, 10);
 }
 .flexible-con{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .content{
     width: 50%;
-    padding: 10px 5px 5px 10px;
+    padding-left: 2px;
 }
 .content img{
-    width: 70%;
+    width: 80%;
 }
 button{
     background-image: linear-gradient(tomato,orange);
-    padding: 10px 30px;
+    padding: 10px 40px;
     border-radius: 10px;
 }
 button a{
@@ -43,7 +46,7 @@ button a{
     max-width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 10px;
+    padding: 20px;
     /* border-radius: 10px;
     border-right: 5px solid violet; */
 }
@@ -54,13 +57,13 @@ button a{
 
 }
 #expoId-color{
-    border-right: 5px solid violet;
-    border-image: linear-gradient(rgb(103, 9, 190),rgb(16, 233, 52));
+    border-right: 7px solid rgb(247, 16, 247);
+    border-image: linear-gradient(rgb(241, 9, 117),rgb(16, 233, 52));
     border-image-slice: 1;
 }
 #full-id{
-    border-right: 5px solid violet;
-    border-image: linear-gradient(rgb(103, 9, 190),rgb(16, 233, 52));
+    border-right: 7px solid rgb(87, 18, 216);
+    border-image: linear-gradient(rgb(103, 9, 190),rgb(172, 231, 7));
     border-image-slice: 1;
 }
 footer p{
